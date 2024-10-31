@@ -1,0 +1,134 @@
+.nf_subpage_fieldset {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.nf_subpage_fieldset legend {
+	display: none;
+}
+
+.nf_subpage_wrap {
+	display: none;
+	border-radius: 2px;
+	border: 1px solid #1a1a1a;
+}
+
+.nf_subpage_header {
+	background: #1a1a1a;
+	border: 0;
+	border-radius: 1px 1px 0 0;
+	color: #fff;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+	display: block;
+}
+
+.nf_subpage_title {
+	color: white;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.nf_subpage_content {
+	padding: 0.875em;
+}
+
+.nf_subpage_footer {
+	background: #1a1a1a;
+	border: 0;
+	border-radius: 0 0 1px 1px;
+	padding: 0.84375em 0.875em 0.78125em;
+	display: block;
+}
+
+.nf_subpage_navigation {
+	width: 100%;
+	height: 30px;
+	display: block;
+}
+
+.nf_subpage_progressbar_wrap {
+	margin-top: 0.84375em;
+	max-width: 100%;
+	height: 30px;
+	vertical-align: middle;
+	display: block;
+}
+
+.nf_subpage_progressbar {
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+
+	width: 100%;
+	height: 100%;
+
+	position: relative;
+	display: block;
+}
+
+.nf_subpage_progressbar_text {
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.nf_subpage_progressbar span {
+	background-color: #8f9f2b;
+	border-radius: 2px;
+
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	/**text-indent: -9999px;**/
+
+	width: 0;
+	height: 100%;
+}
+
+.nf_subpage_clear {
+	clear: both;
+	display: none;
+}
+
+.nf_subpage_button {
+	background: #1a1a1a;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+}
+
+@media screen and (min-width: 56.875em) {
+	.nf_subpage_navigation {
+		width: 50%;
+		float: left;
+	}
+
+	.nf_subpage_progressbar_wrap {
+		margin-top: 0em;
+		width: 50%;
+		float: right;
+	}
+
+	.nf_subpage_clear {
+		display: block;
+	}
+}

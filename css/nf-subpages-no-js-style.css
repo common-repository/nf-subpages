@@ -1,0 +1,30 @@
+.nf_subpage_fieldset {
+	border: 1px solid #1a1a1a;
+	padding: 0.84375em 0.875em 0.78125em;
+	margin: 0 !important;
+	border-radius: 2px;
+}
+
+.nf_subpage_fieldset legend {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.nf_subpage_wrap {
+	display: block;
+}
+
+.nf_subpage_header {
+	display: none;
+}
+
+.nf_subpage_content {
+	padding: 0.875em;
+}
+
+.nf_subpage_footer {
+	display: none;
+}

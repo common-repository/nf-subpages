@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nf-subpages\n"
+"POT-Creation-Date: 2016-02-01 20:00-0500\n"
+"PO-Revision-Date: 2016-02-03 21:41+0100\n"
+"Language-Team: macnetic-labs <info@macnetic-labs.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: nf-subpages.php:16
+msgid ""
+"Plugin 'NF Subpages' deactivated, because it requires the Ninja Forms plugin "
+"to be installed and active"
+msgstr ""
+"Plugin ‚NF Subpages‘ deaktiviert, weil das ‚Ninja Forms‘ Plugin nicht "
+"installiert und/oder aktiviert ist"
+
+#: nf-subpages.php:53
+msgid "Fieldset Start"
+msgstr "Feldset Start"
+
+#: nf-subpages.php:88
+msgid "Fieldset End"
+msgstr "Fieldset Ende"
+
+#: nf-subpages.php:120
+msgid "Subpage Start"
+msgstr "Unterseite Start"
+
+#: nf-subpages.php:158
+msgid "Subpage End"
+msgstr "Unterseite Ende"
+
+#: nf-subpages.php:189
+msgid "prev"
+msgstr "zurück"
+
+#: nf-subpages.php:190
+msgid "next"
+msgstr "weiter"
